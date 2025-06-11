@@ -7,12 +7,12 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class GamePanel extends JPanel {
-    private Player player;
+    private final Player player;
 
     private static final int TILE_SIZE = 64;
     private static final int MAP_WIDTH = 25;
     private static final int MAP_HEIGHT = 19;
-    private Tile[][] tiles;
+    private final Tile[][] tiles;
 
     public GamePanel() {
         player = new Player(10, 5, TILE_SIZE); // Start at tile (10,5)
