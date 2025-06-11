@@ -18,9 +18,4 @@ public class Player {
         g.fillOval(x, y, size, size);
     }
 
-    public void move(int dx, int dy) {
-        tileX += dx;
-        tileY += dy;
-    }
-
 }
